@@ -10,7 +10,7 @@ public class ContadorDePalavras {
             System.out.println("Digite uma frase: ");
             String frase = scanner.nextLine();
 
-            contadorDePalavras(frase, scanner);
+            contadorDePalavras(frase);
 
             System.out.println("Deseja continuar? s / n");
             verificar = scanner.nextLine();
