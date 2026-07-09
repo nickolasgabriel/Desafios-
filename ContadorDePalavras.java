@@ -27,7 +27,7 @@ public class ContadorDePalavras {
     public static void mostrarQuantidadeDePalavras(int quantidadeDePalavras){
         System.out.println("A frase tem " + quantidadeDePalavras + " palavras.");
     }
-    public static void contadorDePalavras(String frase, Scanner scanner){
+    public static void contadorDePalavras(String frase){
         String[] arrPalavras = frase.trim().split("\\s+");
         int quantidadePalavras = arrPalavras.length;
 
